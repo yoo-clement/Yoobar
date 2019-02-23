@@ -1,0 +1,27 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Espace barman</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<ion-list>
+		<ion-item>
+			<ion-label floating>Adresse mail</ion-label>
+			<ion-input type="text" [(ngModel)]="emailField"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Mot de passe</ion-label>
+			<ion-input type="password" [(ngModel)]="passwordField"></ion-input>
+		</ion-item>
+	</ion-list>
+	<ion-buttons class="log-reg-buttons">
+		<button ion-button (click)="submitLogin()">Connexion</button>
+	</ion-buttons>
+	<p>
+		<button ion-button clear full (click)="showForgotPassword()">Mot de passe oublié</button>
+	</p>
+</ion-content>

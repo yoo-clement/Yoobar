@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar class="button-clear"></ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <img src="{{photo}}">
+    <ion-item>
+      <h2>{{Name}}</h2>
+    </ion-item>
+  </ion-card>
+  <p>{{Address}}</p>
+  <ul>
+    <li *ngFor="let schedule of Schedule">
+      {{ schedule?.day }}
+      {{ schedule?.schedule }}
+    </li>
+  </ul> 
+  <p>{{Desc}}</p>
+  <p>Wi-Fi : {{WifiId}} / {{WifiPwd}}</p>
+  <button ion-button round outline (click)="ViewMenu()">Carte des boissons</button>
+</ion-content>
+
+

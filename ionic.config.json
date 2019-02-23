@@ -1,0 +1,8 @@
+{
+  "name": "YoobarApp",
+  "app_id": "e268dc6d",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

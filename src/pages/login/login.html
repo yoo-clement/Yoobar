@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Connexion</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+	<ion-list>
+		<ion-item>
+			<ion-label floating>Adresse mail</ion-label>
+			<ion-input type="text" [(ngModel)]="emailField"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Mot de passe</ion-label>
+			<ion-input type="password" [(ngModel)]="passwordField"></ion-input>
+		</ion-item>
+	</ion-list>
+	<ion-buttons class="log-reg-buttons">
+		<button ion-button (click)="submitLogin()">Connexion</button>
+		<button ion-button (click)="submitRegister()">Inscription</button>
+	</ion-buttons>
+	<ion-buttons class="log-reg-buttons">
+		<button ion-button color="primary" outline icon-start (click)="googleSignIn()"> <ion-icon name='logo-googleplus' is-active="false"></ion-icon> </button>
+		<button ion-button color="primary" outline icon-start (click)="facebookSignIn()"> <ion-icon name='logo-facebook' is-active="false"></ion-icon> </button>
+	</ion-buttons>
+	<p>
+		<button ion-button clear full (click)="showForgotPassword()">Mot de passe oublié</button>
+	</p>
+	<p>
+		<button ion-button clear full (click)="BarmanLogin()">Espace barman</button>
+	</p>
+
+	<!--<ion-list>
+		<p>Utilisateurs</p>
+		<ion-item *ngFor="let user of usersList">
+			<ion-label>{{user.name.first}} {{user.name.last}}</ion-label>
+		</ion-item>
+	</ion-list>-->
+</ion-content>

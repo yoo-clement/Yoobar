@@ -1,0 +1,286 @@
+{
+  "bars" : [ {
+    "adresse" : "3 Place Denfert-Rochereau, 75014 Paris",
+    "avis" : {
+      "mNVWYV-7qymONbjqbnz7219iMbdz1" : {
+        "commentaire" : "Au top !",
+        "note" : 4.5
+      }
+    },
+    "description" : "Restaurant le midi, snacking le soir, brunch thématique à volonté le dimanche avec animations gratuites pour les enfants, matchs sur écrans géants... c'est évidement le soir que le Café Oz Denfert laisse place à ses célèbres soirées : happy hour, soirées à thème, Djs mix et artistes live... une vraie soirée clubbing ! Le vrai plus ? La superbe terrasse (couverte et chauffée en hiver), ses 3 bars et une véranda privatisable pour vos événements privés ou d’entreprise.",
+    "horaires" : {
+      "Dimanche" : "Fermé",
+      "Jeudi" : "12:00 - 05:00",
+      "Lundi" : "12:00 - 02:00",
+      "Mardi" : "12:00 - 03:00",
+      "Mercredi" : "12:00 - 03:00",
+      "Samedi" : "12:00 - 05:00",
+      "Vendredi" : "12:00 - 05:00"
+    },
+    "name" : "Café Oz Denfert-Rochereau",
+    "nom" : "Café Oz Denfert-Rochereau",
+    "photo" : "https://firebasestorage.googleapis.com/v0/b/yoobarapp.appspot.com/o/cafe-oz-denfert-rochereau-4.jpg?alt=media&token=1d38cb80-a280-4b09-b101-2ae0ff5c366e",
+    "wi-fi" : {
+      "identifiant" : "yoobar",
+      "mdp" : "ieufdlo!"
+    }
+  }, {
+    "adresse" : "8 Rue de Belleville, 75020 Paris",
+    "avis" : {
+      "HR8wEBgLunguig91CzivlVlXqBk2" : {
+        "commentaire" : "Amazing !",
+        "note" : 5
+      }
+    },
+    "description" : "Situé dans un ancien cabaret, ce bar animé avec terrasse offre un cadre détendu orné d'affiches et de néons.",
+    "horaires" : {
+      "Dimanche" : "07:00–02:00",
+      "Jeudi" : "07:00–02:00",
+      "Lundi" : "07:00–02:00",
+      "Mardi" : "07:00–02:00",
+      "Mercredi" : "07:00–02:00",
+      "Samedi" : "07:00–02:00",
+      "Vendredi" : "07:00–02:00"
+    },
+    "name" : "Aux folies",
+    "nom" : "Aux folies",
+    "photo" : "https://firebasestorage.googleapis.com/v0/b/yoobarapp.appspot.com/o/ho9m2M2xwd-auxfollies.jpg?alt=media&token=c8ad8f54-e116-46b1-9cf5-793b95a305fe",
+    "wi-fi" : {
+      "identifiant" : "aux-folies",
+      "mdp" : "ieufdlo!"
+    }
+  } ],
+  "categories" : {
+    "-Kv7vTFI8vcbr3hJ93PK" : {
+      "categorie" : "Bières"
+    },
+    "-Kv7vlOnIoywRCZFRwal" : {
+      "categorie" : "Softs"
+    },
+    "-Kv7vrhxoFUXeJuFEQW1" : {
+      "categorie" : "Cocktails"
+    },
+    "-Kv7w2i4WvUuelNvE_aT" : {
+      "categorie" : "Vins et champagnes"
+    },
+    "-Kv7wCkj1R0ctu3U3Py3" : {
+      "categorie" : "Shots"
+    },
+    "-Kv82E1GNZkIiHg63A_Q" : {
+      "categorie" : "Spécial"
+    },
+    "-Kv82JmL_3pcTelHJW-X" : {
+      "categorie" : "Hard"
+    }
+  },
+  "groups" : {
+    "yoobarmans" : {
+      "membres" : [ {
+        "ajSvaObAFdQ57XcSAIJK4pYcGDj1" : true
+      } ]
+    },
+    "yoobers" : {
+      "membres" : {
+        "TaOqUQ4qVrVwb3mPhS8LE0GE5Hv2" : true,
+        "zX3AKBzlQqWfS2iViAGT4G3s2s43" : true
+      }
+    }
+  },
+  "locations" : [ {
+    "description" : "3 Place Denfert-Rochereau, 75014 Paris",
+    "latitude" : 48.8333089,
+    "longitude" : 2.3338853999999856,
+    "name" : "Café Oz Denfert-Rochereau!"
+  }, {
+    "description" : "8 Rue de Belleville, 75020 Paris",
+    "latitude" : 48.8722828,
+    "longitude" : 2.3780461999999716,
+    "name" : "Aux folies"
+  } ],
+  "paniers" : {
+    "TaOqUQ4qVrVwb3mPhS8LE0GE5Hv2" : {
+      "-Kv7vTFI8vcbr3hJ93PK" : {
+        "children" : [ {
+          "description" : "La Leffe brune est une bière belge d'abbaye typique brassée par l'abbaye de Leffe. Derrière sa mousse abondante se cache une bière parfaitement équilibrée.",
+          "litrage" : "33 cl",
+          "nom" : "Leffe Brune",
+          "prix" : 4.25,
+          "quantite" : "3",
+          "total" : 12.75
+        }, {
+          "description" : "Le Martini est un vermouth italien. Il s'agit d'un mélange subtil et complexe à base de vin et de plus de 40 plantes aromatiques naturelles.",
+          "litrage" : "33 cl",
+          "nom" : "L'Américano",
+          "prix" : 8,
+          "quantite" : "1",
+          "total" : 8
+        } ],
+        "nom" : "Bière"
+      },
+      "-Kv7wCkj1R0ctu3U3Py3" : {
+        "children" : [ {
+          "description" : "Le cocktail explosif !",
+          "litrage" : "5 cl",
+          "nom" : "Vodka Red Bull",
+          "prix" : 5.1,
+          "quantite" : "2",
+          "total" : 10.2
+        } ],
+        "nom" : "Shot"
+      }
+    }
+  },
+  "payments" : {
+    "TaOqUQ4qVrVwb3mPhS8LE0GE5Hv2" : {
+      "-Kxs76szD67C0_P2CmzC" : {
+        "amount" : 48.75,
+        "token" : {
+          "card" : {
+            "brand" : "Visa",
+            "country" : "US",
+            "cvc_check" : "pass",
+            "exp_month" : 9,
+            "exp_year" : 2023,
+            "funding" : "credit",
+            "id" : "card_1BJNpVDq6LAzfKGyJbToBbcw",
+            "last4" : "4242",
+            "name" : "clemlegal91210@gmail.com",
+            "object" : "card"
+          },
+          "client_ip" : "77.131.206.58",
+          "created" : 1509548913,
+          "email" : "clemlegal91210@gmail.com",
+          "id" : "tok_1BJNpVDq6LAzfKGyd0Tw1oqB",
+          "livemode" : false,
+          "object" : "token",
+          "type" : "card",
+          "used" : false
+        }
+      }
+    },
+    "UXT4VYbO67gaFKFIzfgvq4zQIqH2" : {
+      "-KxhtLEpqPHTFqo9tpFb" : {
+        "amount" : 43.5,
+        "token" : {
+          "card" : {
+            "brand" : "Visa",
+            "country" : "US",
+            "cvc_check" : "pass",
+            "exp_month" : 9,
+            "exp_year" : 2023,
+            "funding" : "credit",
+            "id" : "card_1BIfB1Dq6LAzfKGyB9FVyjoc",
+            "last4" : "4242",
+            "name" : "clemlegal91210@gmail.com",
+            "object" : "card"
+          },
+          "client_ip" : "77.136.15.233",
+          "created" : 1509377267,
+          "email" : "clemlegal91210@gmail.com",
+          "id" : "tok_1BIfB1Dq6LAzfKGyPpd1OGHB",
+          "livemode" : false,
+          "object" : "token",
+          "type" : "card",
+          "used" : false
+        }
+      }
+    }
+  },
+  "produits" : {
+    "0" : {
+      "-Kv7vTFI8vcbr3hJ93PK" : {
+        "children" : [ {
+          "description" : "La Leffe brune est une bière belge d'abbaye typique brassée par l'abbaye de Leffe. Derrière sa mousse abondante se cache une bière parfaitement équilibrée.",
+          "litrage" : "33 cl",
+          "marque" : "Leffe",
+          "nom" : "Leffe Brune",
+          "prix" : 4.25
+        }, {
+          "description" : "Le Martini est un vermouth italien. Il s'agit d'un mélange subtil et complexe à base de vin et de plus de 40 plantes aromatiques naturelles.",
+          "litrage" : "33 cl",
+          "marque" : "Martini",
+          "nom" : "L'Américano",
+          "prix" : 8
+        } ],
+        "nom" : "Bière"
+      },
+      "-Kv7wCkj1R0ctu3U3Py3" : {
+        "children" : [ {
+          "description" : "Le cocktail explosif !",
+          "litrage" : "5 cl",
+          "marque" : "Poliakov",
+          "nom" : "Vodka Red Bull",
+          "prix" : 5.1
+        } ],
+        "nom" : "Shot"
+      }
+    },
+    "-KvNr8gZc8fZbUI-D_t9" : {
+      "-Kv7vTFI8vcbr3hJ93PK" : {
+        "children" : [ {
+          "description" : "La Leffe brune est une bière belge d'abbaye typique brassée par l'abbaye de Leffe. Derrière sa mousse abondante se cache une bière parfaitement équilibrée.",
+          "litrage" : "33 cl",
+          "marque" : "Leffe",
+          "nom" : "Leffe Brune",
+          "prix" : 4.25
+        }, {
+          "description" : "Le Martini est un vermouth italien. Il s'agit d'un mélange subtil et complexe à base de vin et de plus de 40 plantes aromatiques naturelles.",
+          "litrage" : "33 cl",
+          "marque" : "Martini",
+          "nom" : "L'Américano",
+          "prix" : 8
+        } ],
+        "nom" : "Bière"
+      },
+      "-Kv7wCkj1R0ctu3U3Py3" : {
+        "children" : [ {
+          "description" : "Le cocktail explosif !",
+          "litrage" : "5 cl",
+          "marque" : "Poliakov",
+          "nom" : "Vodka Red Bull",
+          "prix" : 5.1
+        } ],
+        "nom" : "Shot"
+      }
+    }
+  },
+  "users" : {
+    "TaOqUQ4qVrVwb3mPhS8LE0GE5Hv2" : {
+      "name" : {
+        "first" : "Clément",
+        "last" : "Gal",
+        "middle" : "Lee"
+      },
+      "photo" : "https://scontent.xx.fbcdn.net/v/t1.0-1/s100x100/20525200_10214152149415696_1631029216153965079_n.jpg?oh=d9be2f3596b90e942a6ff72fba8a973f&oe=5A842F8F",
+      "username" : "Clément Lee Gal"
+    },
+    "ajSvaObAFdQ57XcSAIJK4pYcGDj1" : {
+      "email" : "barry.yoobar@gmail.com",
+      "groups" : {
+        "yoobarmans" : true,
+        "yoobers" : false
+      },
+      "phone" : "06783322487",
+      "pseudo" : "Barry"
+    },
+    "sbqQGgSVWGVEXpHq2gwoHuQ3IYy2" : {
+      "email" : "clement.le-gal@outlook.fr",
+      "phone" : "0678322487",
+      "pseudo" : "Clément"
+    },
+    "zK8XG2VxfLcrXEXxCmoGHn1f70W2" : {
+      "email" : "barry.yoobar@gmail.com",
+      "phone" : "0678322487",
+      "pseudo" : "Barry de Yoobar"
+    },
+    "zX3AKBzlQqWfS2iViAGT4G3s2s43" : {
+      "email" : "clemlegal91210@gmail.com",
+      "groups" : {
+        "yoobarmans" : false,
+        "yoobers" : true
+      },
+      "phone" : "0678322487",
+      "pseudo" : "FireAdmin"
+    }
+  }
+}

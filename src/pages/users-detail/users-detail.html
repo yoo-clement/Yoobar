@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Mon compte</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<!--<ion-card text-center>
+		<img src="{{userPhotoUrl}}" class="profil_pic"/>
+		<ion-card-content>
+			<ion-card-title> {{userDisplayName}} </ion-card-title>
+		</ion-card-content>
+	</ion-card>-->
+	<ion-list>
+	    <!--<ion-list-header>
+	      Hobbits
+	    </ion-list-header>-->
+	    <a ion-item> Mes informations </a> <!-- Nom, prénom, date de naissance, email, téléphone -->
+	    <!--<a ion-item> Mes achats </a>-->
+	    <a ion-item> Mes commandes </a>
+	    <!--<a ion-item> Mes cartes bancaires </a>-->
+	    <!--<a ion-item> Mes bars préférés </a>-->
+	    <!--<a ion-item> Parrainer mes amis </a>-->
+	    <a ion-item (click)="logUserOut()"> Déconnexion </a>
+  	</ion-list>
+</ion-content>

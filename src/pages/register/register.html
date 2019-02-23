@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Inscription</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<ion-list>
+		<ion-item>
+			<ion-label floating>Pseudo</ion-label>
+			<ion-input type="text" [(ngModel)]="pseudoField"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Adresse mail</ion-label>
+			<ion-input type="text" [(ngModel)]="emailField"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Téléphone</ion-label>
+			<ion-input type="text" [(ngModel)]="phoneNumberField"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Mot de passe</ion-label>
+			<ion-input type="password" [(ngModel)]="passwordField"></ion-input>
+		</ion-item>
+	</ion-list>
+	<div class="reg-button">
+		<button ion-button (click)="signUpUser()">Inscription</button>
+	</div>
+</ion-content>
